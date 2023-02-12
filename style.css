@@ -162,6 +162,16 @@ footer{
     gap: 10px;
 }
 
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+footer h2{
+    text-align: center;
+}
+
 footer hr{
     height: 2px;
     border-width: 0;
