@@ -69,9 +69,6 @@ header{
     align-items: center;
     justify-content: center;
 }
-#index-hero{
-    background-image: url('images/home-page-hero-3.jpg');
-}
 .hero-sub-title{
     font-size: 25px;
     font-weight: bold;
@@ -96,6 +93,12 @@ header{
 .pic-bg-hero{
     background-size: cover;
     background-position: 50% 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#index-hero{
+    font-size: 70px;
+    text-shadow: 4px 3px 0px var(--hover-color), 9px 8px 0px rgba(0,0,0,0.15);
 }
 
 
@@ -161,6 +164,29 @@ header{
 .otherstuff{
     height: 200px;
 }
+
+
+/*STATISTICS*/
+.statistics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    max-width: 1300px;
+    /*padding: 0 80px;*/
+    margin: 120px auto;
+}
+.statistics h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.statistics img{
+    margin-top: 25px;
+    height: 550px;
+}
+
 
 /*SECON DPAGE*/
 .articles{
