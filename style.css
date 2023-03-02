@@ -69,7 +69,13 @@ body{
 
 .btn:is(:hover, :focus) { background-color: var(--hover-color-dark); }
 
-.btn-secondary { border-radius: 50px; }
+.btn-secondary { 
+    /* border-radius: 50px;  */
+    border-radius: 6px;
+    background-color: white;
+    color: var(--hover-color);
+    border: 1px solid var(--hover-color);
+}
 
 .btn-primary { border-radius: 6px; }
 
@@ -144,6 +150,12 @@ header{
     flex-direction: column;
     gap: 60px;
 }
+.solid-bg-hero-v2{
+    min-height: 500px;
+    background-color: var(--solid-bg-color);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
 .pic-bg-hero{
     background-size: cover;
     background-position: 50% 50%;
@@ -153,6 +165,9 @@ header{
 #index-hero{
     font-size: 70px;
     text-shadow: 4px 3px 0px var(--hover-color), 9px 8px 0px rgba(0,0,0,0.15);
+}
+#newhomes-hero{
+    font-size: 70px;
 }
 
 
@@ -196,7 +211,7 @@ header{
     width: 262px;
     height: 270px;
     margin: 13px;
-    border: 1px solid #b0b0b0;
+    border: 1px solid #dedede;
     border-radius: 5px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 
@@ -380,6 +395,127 @@ header{
 .article-card:hover .read-more{
     /* display: block; */
     color: var(--hover-color);
+}
+
+
+/*SEARCH*/
+.search-container{
+    max-width: 1300px;
+    /*padding: 0 80px;*/
+    margin: 150px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.search {
+    
+    display: flex;
+}
+.searchTerm {
+    width: 100%;
+    border: 1px solid #8e8e8e;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    /* border-radius: 5px 0 0 5px; */
+    outline: none;
+    color: #9DBFAF;
+}
+.searchTerm:focus{
+    color: #00B4CC;
+}
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid var(--hover-color);
+    background: var(--hover-color);
+    text-align: center;
+    color: #fff;
+    /* border-radius: 0 5px 5px 0; */
+    cursor: pointer;
+    font-size: 20px;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+    width: 600px;
+}
+.map img{
+    width: 602px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.NH-sample-homes{
+    max-width: 600px;
+    /*padding: 0 80px;*/
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.NH-sample-homes h2{
+    padding: 10px 0;
+    margin-left: 30px;
+}
+.NH-listings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+.NH-listing-card{
+    width: 262px;
+    height: 290px;
+    margin: 13px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.NH-listing-card .NH-listing-text{
+    margin: 0 5px;
+}
+.NH-listing-card img{
+    width: 260px;
+    height: 150px;
+}
+.NH-listing-card p{
+    font-size: 12px;
+    margin: 10px 0;
+}
+.NH-listing-card .buttons{
+    margin: 20px 0;
+}
+
+
+
+/*VIEW HOME*/
+.home-container{
+    max-width: 1600px;
+    /*padding: 0 80px;*/
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.home-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home-info hr{
+    border-top: 1px solid var(--hover-color);
+}
+.home-details{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
 }
 
 /*   FOOTER SECTION   */
