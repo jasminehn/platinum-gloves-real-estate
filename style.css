@@ -10,9 +10,10 @@
 }
 :root{
     --main-bg-color: #fff;
-    --solid-bg-color: #707070;
+    --solid-bg-color: #76d348;
     --text-color: #000;
     --hover-color: #22c8ff;
+    /* --hover-color: #22c8ff; */
     --hover-color-dark: #1ca2cf;
 
     /**
@@ -153,13 +154,13 @@ header{
 .solid-bg-hero-v2{
     min-height: 500px;
     background-color: var(--solid-bg-color);
-    color: rgb(255, 255, 255);
+    color: rgb(22, 46, 222);
     text-align: center;
 }
 .pic-bg-hero{
     background-size: cover;
     background-position: 50% 50%;
-    color: rgb(255, 255, 255);
+    color: rgb(78, 90, 109);
     text-align: center;
 }
 #index-hero{
@@ -377,7 +378,8 @@ header{
     font-size: 18px;
 }
 .article-card p{
-    font-size: 14px;
+    font-size: 19px;
+    font-weight: bold;
     /* margin: 25px; */
 }
 .read-more{
@@ -508,6 +510,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 .home-info hr{
     border-top: 1px solid var(--hover-color);
@@ -586,7 +589,7 @@ footer .social-links .social-link a{
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 } */
 footer{
-    background-color: #111010;
+    background-color: #c274f3;
 }
 .footer-container{
     padding: 1.5rem 4rem;
@@ -597,21 +600,21 @@ footer{
 footer .footer-title{ 
     font-size: 1.25rem;
     line-height: 1.75rem;
-    color: white;
+    color: rgb(0, 0, 0);
     border-left: 4px solid var(--hover-color);
     padding-left: 1.5rem;
     height: fit-content;
 }
 footer ul{ 
     padding-left: 1.75rem;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem;
     margin-top: .5rem;
 }
 footer ul li{ 
     margin: .25rem 0;
-    color: #d4d4d4;
+    color: #000000;
     width: fit-content;
 }
 footer .rocki-bio{
@@ -622,7 +625,7 @@ footer .rocki-bio{
     padding-left: 1.65rem;
 }
 footer .rocki-name{
-    color: white;
+    color: rgb(0, 0, 0);
     border-left: 4px solid var(--hover-color);
     padding-left: 1.5rem;
     font-size: 1.875rem;
@@ -636,13 +639,13 @@ footer .rocki-name{
     color: var(--hover-color);
 }
 footer .rocki-info p{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 footer .useful-links{ /*TEMPORARY, DELETE LATER*/
     margin-bottom: 80px;
 }
 footer .useful-links a{
-    color: #d4d4d4;
+    color: #000000;
 }
 footer .useful-links a:hover{
     color: white;
@@ -689,7 +692,7 @@ form textarea{
 }
 footer .copyright{
     /* background-color: #232127; */
-    background-color: #252426;
+    background-color: #79119e;
     color: white;
     padding: 1rem 4rem;
     text-align: center;
