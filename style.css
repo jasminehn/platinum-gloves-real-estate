@@ -10,7 +10,7 @@
 }
 :root{
     --main-bg-color: #fff;
-    --solid-bg-color: #76d348;
+    --solid-bg-color: #707070;
     --text-color: #000;
     --hover-color: #22c8ff;
     /* --hover-color: #22c8ff; */
@@ -154,13 +154,13 @@ header{
 .solid-bg-hero-v2{
     min-height: 500px;
     background-color: var(--solid-bg-color);
-    color: rgb(22, 46, 222);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 .pic-bg-hero{
     background-size: cover;
     background-position: 50% 50%;
-    color: rgb(78, 90, 109);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 #index-hero{
@@ -378,8 +378,7 @@ header{
     font-size: 18px;
 }
 .article-card p{
-    font-size: 19px;
-    font-weight: bold;
+    font-size: 14px;
     /* margin: 25px; */
 }
 .read-more{
@@ -589,7 +588,7 @@ footer .social-links .social-link a{
     margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 } */
 footer{
-    background-color: #c274f3;
+    background-color: #111010;
 }
 .footer-container{
     padding: 1.5rem 4rem;
@@ -600,21 +599,21 @@ footer{
 footer .footer-title{ 
     font-size: 1.25rem;
     line-height: 1.75rem;
-    color: rgb(0, 0, 0);
+    color: white;
     border-left: 4px solid var(--hover-color);
     padding-left: 1.5rem;
     height: fit-content;
 }
 footer ul{ 
     padding-left: 1.75rem;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 0.875rem/* 14px */;
     line-height: 1.25rem;
     margin-top: .5rem;
 }
 footer ul li{ 
     margin: .25rem 0;
-    color: #000000;
+    color: #d4d4d4;
     width: fit-content;
 }
 footer .rocki-bio{
@@ -625,7 +624,7 @@ footer .rocki-bio{
     padding-left: 1.65rem;
 }
 footer .rocki-name{
-    color: rgb(0, 0, 0);
+    color: white;
     border-left: 4px solid var(--hover-color);
     padding-left: 1.5rem;
     font-size: 1.875rem;
@@ -639,13 +638,13 @@ footer .rocki-name{
     color: var(--hover-color);
 }
 footer .rocki-info p{
-    color: rgb(0, 0, 0);
+    color: white;
 }
 footer .useful-links{ /*TEMPORARY, DELETE LATER*/
     margin-bottom: 80px;
 }
 footer .useful-links a{
-    color: #000000;
+    color: #d4d4d4;
 }
 footer .useful-links a:hover{
     color: white;
@@ -692,7 +691,7 @@ form textarea{
 }
 footer .copyright{
     /* background-color: #232127; */
-    background-color: #79119e;
+    background-color: #252426;
     color: white;
     padding: 1rem 4rem;
     text-align: center;
